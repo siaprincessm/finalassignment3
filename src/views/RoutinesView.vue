@@ -149,7 +149,7 @@ export default {
             }
 
             if (this.input.workoutType) {
-                queryParams.push("mainGoal=" + this.input.workoutType);
+                queryParams.push("workoutType=" + this.input.workoutType);
             }
 
             if (this.input.intensity) {
