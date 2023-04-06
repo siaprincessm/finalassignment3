@@ -104,8 +104,9 @@ Features for Gym-goer
 ## Test Case
 | Test Case # | Description | Steps | Expected Results
 | --- | --- | --- | --- |
-| `Log in` | User to input his login credentials | 1. Fill in username 2. Fill in password 3. Click log in |
-Successful log in
+| `Log in` | User to input his login credentials | 1. Fill in username 
+                                                   2. Fill in password 
+                                                   3. Click log in |Successful log in
 
 
 # go-gym
