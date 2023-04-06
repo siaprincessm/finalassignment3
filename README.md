@@ -22,7 +22,7 @@ Features for Gym-goer
     -Search routines
     -Add comment to routine
 
-## USe Cases
+## Use Cases
     Log in
         Objective - successfuly log in to respective accounts.
         Steps:
@@ -99,6 +99,15 @@ Features for Gym-goer
     Tools
         VS Code - used as an IDE
         Git - user for source control
+
+
+## Test Case
+| Test Case # | Description | Steps | Expected Results
+| --- | --- | --- | --- |
+| `Log in` | User to input his login credentials | 1. Fill in username
+2. Fill in password
+3. Click log in |
+Successful log in
 
 
 # go-gym
