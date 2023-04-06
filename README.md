@@ -2,8 +2,9 @@
 *[Project Name](#project-name)
 *[Features](#features)
 *[Use Cases](#use-cases)
-*[technologies Used](#technologies-used)
-*[Testing](#testing)
+*[Technologies Used](#technologies-used)
+*[Test Case](#test-case)
+*[Test Accounts](#testing)
 
 ## Project Name
 The main purposes of Go gym is to provide a platform for fitness fanatics to connect the experienced, professional fitness coaches to provide workout routines for gym-goers based on the intensity, duration, and level of difficulty. This will help gym-goers to streamline their workout routines based on their priority thru the helpm of trained coaches.
@@ -104,8 +105,25 @@ Features for Gym-goer
 ## Test Case
 | Test Case # | Description | Steps | Expected Results
 | --- | --- | --- | --- |
-| `Log in` | User to input his login credentials | 1. Fill in username 2. Fill in password 3. Click log in |
-Successful log in
+| `Log in` | User to input his login credentials | 1. Fill in username 2. Fill in password 3. Click log in | Successful log in |
+| `Coach and Gym-goer search for a routine` | Search workout routine | 1. Click hamburger button 2. Click Routines 3. Choose between Main goal, Workout type, Intensity and Duration in Minutes whichever your priority 4.Click Search | Successful login |                                             
+|`Reset Button`| Delete the your search input | 1. Filling in your searches 2. Click Reset | Delete the searches |
+|`Coach to Create a routine`| Create a routine | 1. Click hamburger button 2.Click Create Routine 3. Fill in the details 4. Click Create | Delete the searches |
+|`Create Routine - Remove button`| Removes your exercise inputs | 1. Fill in Name of exercise and, sets required, repetitions required. 2. Click remove | Delete the searches |
+|`Create Routine - Add button`| Add additional exercise | 1. Fill in Name of exercise, sets and repetitions 2. Click add | Delete the searches |
+|`Create Routine - Create button`| Save the exercises you added to a routine | 1. Fill in the Main goal, workout type, equipment needed, intensity and Duration in minutes. 2. Fill in the exercises 3. Click Create  button | Register the whole routine to the system |
+|`Create user`| Only coaches are allowed to access Create User to make sure all routines are safe |1. Click the hamburger button 2. Click Create User 3. Fill the necessary details 4. Click Create | Register the whole routine to the system |
+|`Sign out`| User to Logout |1. Click hamburger button 2. Click User/Nickname 3. Click Sign out | Sign out from your account |
+
+## Test Account
+    *Coach
+        Email: ps@gmail.com
+        Password: 321cba
+
+    *Gym-goer
+        Email: nick@gmail.com
+        Password: nickgymgoer
+
 
 
 # go-gym
