@@ -114,6 +114,10 @@ Features for Gym-goer
 |`Create Routine - Create button`| Save the exercises you added to a routine | 1. Fill in the Main goal, workout type, equipment needed, intensity and Duration in minutes. 2. Fill in the exercises 3. Click Create  button | Register the whole routine to the system |
 |`Create user`| Only coaches are allowed to access Create User to make sure all routines are safe |1. Click the hamburger button 2. Click Create User 3. Fill the necessary details 4. Click Create | Register the whole routine to the system |
 |`Sign out`| User to Logout |1. Click hamburger button 2. Click User/Nickname 3. Click Sign out | Sign out from your account |
+=======
+| `Log in` | User to input his login credentials | 1. Fill in username 
+                                                   2. Fill in password 
+                                                   3. Click log in |Successful log in
 
 ## Test Account
     *Coach
